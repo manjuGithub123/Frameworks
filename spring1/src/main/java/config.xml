@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean class="com.springproject.spring1.Laptop" id="lp1">
+  <!-- setter injection -->
+ <property name="num" value="1"></property>
+ <property name="brand"  value="hp"></property>
+ <property name="price" value="200.20f"></property>
+ 
+                     
+  </bean>
+  
+   <bean class="com.springproject.spring1.Laptop" id="lp2">
+  <!-- constructer injection-->
+ <constructor-arg value="2"></constructor-arg>
+  <constructor-arg value="dell"></constructor-arg>
+  <constructor-arg value="2323.23f">  </constructor-arg>
+  </bean>
+   <bean class="com.springproject.spring1.Laptop" id="lp3">
+ 
+ <property name="num" value="3"></property>
+ <property name="brand"  value="len"></property>
+ <property name="price" value="222.20f"></property>
+ </bean>
+ 
+ </beans>

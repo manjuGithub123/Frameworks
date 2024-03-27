@@ -1,0 +1,25 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean class="com.springproject.spring5.Kodcls" id="ko">
+  <property name="tr" ref="tr1"></property>
+  
+  </bean>
+  
+
+  
+  <bean class="com.springproject.spring5.Trainer" id="tr">
+  <property name="trainerid" value="1"></property>
+  <property name="trainername" value="manju"></property>
+  
+  </bean>
+  
+  <bean class="com.springproject.spring5.Trainer" id="tr1">
+  <property name="trainerid" value="2"></property>
+  <property name="trainername" value="sanju"></property>
+  
+  </bean>
+ 
+  </beans>

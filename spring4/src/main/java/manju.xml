@@ -1,0 +1,30 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  <bean class="com.springproject.spring4.Emp" id="em">
+  <property name="tech">
+  <list>
+  <value>java</value>
+  <value>sql</value>
+  <value>html</value>
+  </list>
+  </property>
+  <property name="project">
+  <set>
+  <value>p1</value>
+  <value>p2</value>
+  <value>p3</value>
+  </set>
+  </property>
+  <property name="companies">
+  <map>
+  <entry key="1" value="abc"></entry>
+  <entry key="2" value="mno"></entry>
+  <entry key="3" value="xyz"></entry>
+  </map>
+  </property>
+  </bean>
+  
+  </beans>

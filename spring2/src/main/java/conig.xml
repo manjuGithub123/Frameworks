@@ -1,0 +1,15 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean class="com.springproject.spring2.Student" id="st">
+  
+ <property name="id" value="1"></property>
+ <property name="name"  value="manju"></property>
+ <property name="per" value="67.33f"></property>
+ 
+                     
+  </bean>
+  </beans>

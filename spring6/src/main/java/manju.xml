@@ -1,0 +1,23 @@
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+   <bean class="com.springautowiringproject.spring6.Person" id="per"
+   autowire="constructor" >
+  
+  </bean>
+  
+ 
+  
+  
+  
+  <bean class="com.springautowiringproject.spring6.Mobile" id="mob">
+  <property name="brand" value="realme"></property>
+  <property name="ram" value="20"></property>
+  <property name="cost" value="80000.0"></property>
+  </bean>
+  
+  
+  </beans>
